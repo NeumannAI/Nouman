@@ -8,17 +8,13 @@ Docker Images:
 Docker Container:
 - django
 
-Clone the image file from Docker hub using
-```
+Start the project by running 
 
 ```
-Start the project by 
-
-```
-docker-compose up
+docker-compose up --build
 ```
 
-And the going to URL
+Use the following url to access the application
 ```
 http://localhost:8000/todos/list/
 ```
